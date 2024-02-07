@@ -63,7 +63,7 @@ AddEventHandler('GMD_ChipChallenge:challengeStart', function(chipType, Test)
             showChipType = true
             effectAddCounter = 0.2
 
-            AttachEntityToEntity(ChipProp, ped, GetPedBoneIndex(ped, bone), -0.02, 0.0, 0.0, 30.0, 24.0, -44.0, true, true, false, true, 1, true)
+            AttachEntityToEntity(ChipProp, ped, GetPedBoneIndex(ped, bone), -0.02, 0.0, 0.0, 30.0, 24.0, 44.0, true, true, false, true, 1, true)
 
             Wait(100)
 

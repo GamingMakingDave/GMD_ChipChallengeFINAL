@@ -2,7 +2,7 @@ Config = {}
 
 Config.DebugMode = true -- disable in roleplay this activate commands
 
-Config.Local = 'de' -- select you Local de, en 
+Config.Local = 'en' -- select you Local de, en 
 
 Config.ReChallenge = 1 -- set here restart timer in minutes
 

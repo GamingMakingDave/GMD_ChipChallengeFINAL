@@ -245,9 +245,8 @@ function StartHotChip(ped, chipType)
             eatingCount = eatingCount + 1
 
             local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
-            local finalBites = math.random(2, maxBiteCount)
 
-            if eatingCount == finalBites and not playerDie then
+            if eatingCount == maxBiteCount and not playerDie then
                 DeleteObject(ChipProp)
                 ClearPedTasks(ped)
                 ESX.ShowNotification(Config.Language[Config.Local]['challenge_win'])
@@ -379,10 +378,9 @@ function StartSaltChip(ped, chipType)
 
             eatingCount = eatingCount + 1
 
-            local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
-            local finalBites = math.random(2, maxBiteCount)
+           local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
 
-            if eatingCount == finalBites and not playerDie then
+            if eatingCount == maxBiteCount and not playerDie then
                 DeleteObject(ChipProp)
                 ClearPedTasks(ped)
                 ESX.ShowNotification(Config.Language[Config.Local]['challenge_win'])
@@ -510,10 +508,9 @@ function StartSourChip(ped, chipType)
 
             eatingCount = eatingCount + 1
 
-            local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
-            local finalBites = math.random(2, maxBiteCount)
+           local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
 
-            if eatingCount == finalBites and not playerDie then
+            if eatingCount == maxBiteCount and not playerDie then
                 DeleteObject(ChipProp)
                 ClearPedTasks(ped)
                 ESX.ShowNotification(Config.Language[Config.Local]['challenge_win'])
@@ -642,10 +639,9 @@ function StartDogPoopChip(ped, chipType)
 
             eatingCount = eatingCount + 1
 
-            local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
-            local finalBites = math.random(2, maxBiteCount)
+           local maxBiteCount =  Config.chipTypes[chipType].challengeMaxBits
 
-            if eatingCount == finalBites and not playerDie then
+            if eatingCount == maxBiteCount and not playerDie then
                 DeleteObject(ChipProp)
                 ClearPedTasks(ped)
                 ESX.ShowNotification(Config.Language[Config.Local]['challenge_win'])

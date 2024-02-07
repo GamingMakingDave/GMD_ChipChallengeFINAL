@@ -13,7 +13,6 @@ if Config.DebugMode then
         SetPedMovementClipset(PlayerPedId(), "move_characters@michael@fire", 0.5)
     end, false)
 
-
     RegisterCommand('clearped', function(source, args)
         local ped = PlayerPedId()
 
